@@ -1,6 +1,7 @@
 import { JetBrains_Mono, Plus_Jakarta_Sans, Aguafina_Script } from "next/font/google"
 import  Header from "@/components/header";
 import Hero from "@/components/hero"
+import Hackclub from "@/components/hackclub"
 
 export default function page() {
   return (
@@ -8,6 +9,7 @@ export default function page() {
     <main className="bg-[#212125]">
       <Header/>
       <Hero/>
+      <Hackclub />
     </main>
   );
 }
