@@ -10,7 +10,7 @@ export default function Join() {
                     width={250}
                     height={250}
                     alt="Join Discord"
-                    className=""
+                    className="hover:scale-105"
                 />
             </Link>
         </div>
